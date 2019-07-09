@@ -1,1 +1,1 @@
-# gRPC-With-Image-Similarity
+# gRPC-With-Image-Similarity ML Stack
