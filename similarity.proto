@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Vector {
+    repeated float value = 1;
+}
+
+message Number {
+    float value = 1;
+}
+
+service Similarity {
+    rpc Cosine(Vector, Vector) returns (Number) {}
+}
